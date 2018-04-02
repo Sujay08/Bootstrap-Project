@@ -1,0 +1,86 @@
+body{
+	background-color: #cccdce;
+}
+
+.drop{
+	background-color: rgba(204, 205, 206, 0.9);
+	padding-bottom: 12px;
+}
+
+.dropdown-menu a:hover { 
+    background-color: black;
+    color: #ff9502;
+}
+
+.jumbotron{
+	background-image: url("../img/banner.jpg"); 
+	background-size: cover;
+	height: 45rem;
+	margin-top: 40px;
+}
+
+.jumbotron h1{
+	margin-top: 160px;
+	color: #1379c1;
+}
+
+.navbar{
+
+}
+
+.navbar li {
+	padding:0 55px;
+}
+
+.title{
+	text-decoration-line: underline;
+
+}
+.card{
+	box-shadow: 13px 13px 15px 1px;
+}
+.cards img{
+	height: 20rem;
+}
+
+.gal-link{
+	text-decoration: none;
+}
+
+.footer{
+	margin-top: 50px;
+	background-color: black;
+	color: #ff9502;
+}
+
+.contact{
+	padding-bottom: 30px;
+
+}
+/*gallery*/
+
+.photos img{
+	height: 640px;
+	position: relative;
+
+}
+
+.caption{
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	bottom: 60px;
+	width: 100%;
+	text-align: center;
+}
+
+@media (max-width: 600px){
+	.jumbotron {
+		display: none;
+	}
+
+	#about{
+		margin-top: 200px
+	}
+}
